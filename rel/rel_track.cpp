@@ -1,3 +1,7 @@
+
+// HK: otherwise does not compile under IDA SDK 6.8 due to use of fgetc()
+#define USE_STANDARD_FILE_FUNCTIONS
+
 #include "rel_track.h"
 #include <string>
 #include <sstream>
